@@ -20,6 +20,7 @@ newTime.textContent ="Spawn time : " + pokemon.spawn_time;
 newStrong.textContent ="Height - " + pokemon.height;
 newStrongs.textContent ="Weight - " + pokemon.weight;
 
+newHeading.setAttribute("class","text-center")
 newImg.setAttribute("src",pokemon.img);
 newImg.setAttribute("class","mx-auto d-block w-img");
 newItem.setAttribute("class","w-width bg-info p-3");
